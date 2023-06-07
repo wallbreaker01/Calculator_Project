@@ -196,10 +196,5 @@ public class Calculator implements ActionListener{
             result = Math.sqrt(num1);
             textfield.setText(String.valueOf(result));
         }
-//        if(e.getSource() == prcntButton){
-//            num2 = Double.parseDouble(textfield.getText());
-//            result = num1 * num2 / 100;
-//            textfield.setText(String.valueOf(result));
-//        }
     }
 }
