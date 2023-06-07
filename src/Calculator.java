@@ -192,7 +192,6 @@ public class Calculator implements ActionListener{
         }
         if(e.getSource() == sqrtButton){
             num1 = Double.parseDouble(textfield.getText());
-            //operator = '√';
             result = Math.sqrt(num1);
             textfield.setText(String.valueOf(result));
         }
